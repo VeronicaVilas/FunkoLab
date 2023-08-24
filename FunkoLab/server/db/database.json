@@ -1,0 +1,74 @@
+{
+  "produtos": [
+    {
+      "id": 1,
+      "imagem": "https://funko.com/dw/image/v2/BGTS_PRD/on/demandware.static/-/Sites-funko-master-catalog/default/dwe11878f5/images/funko/upload/60926a_POPAnimation_Naruto_RasenshurikenGW_GLAM-WEB%20-%20Copy.png?sw=800&sh=800",
+      "nome": "Naruto Uzumaki",
+      "preco": 89.90,
+      "parcela": 8.99
+    },
+    {
+      "id": 2,
+      "imagem": "https://funko.com/dw/image/v2/BGTS_PRD/on/demandware.static/-/Sites-funko-master-catalog/default/dwee30b6b3/images/funko/upload/74368_POPAnimation_Naruto_SasukeAmaterasu_GLAM-WEB.png?sw=800&sh=800",
+      "nome": "Sasuke Uchiha",
+      "preco": 50.00,
+      "parcela": 5.00
+    },
+    {
+      "id": 3,
+      "imagem": "https://geekfanaticos.fbitsstatic.net/img/p/funko-pop-sakura-183-naruto-shippuden-73425/259912.jpg?w=540&h=540&v=no-change&qs=ignore",
+      "nome": "Sakura Haruno",
+      "preco": 75.00,
+      "parcela": 7.50
+    },
+    {
+      "id": 4,
+      "imagem": "https://funko.com/dw/image/v2/BGTS_PRD/on/demandware.static/-/Sites-funko-master-catalog/default/dw29464326/images/funko/60283-1.png?sw=800&sh=800",
+      "nome": "Kakashi Hatake",
+      "preco": 60.00,
+      "parcela": 6.00
+    },
+    {
+      "id": 5,
+      "imagem": "https://www.lojatoyscollections.com.br/cdn/shop/products/funko-itachi-with-crows2_1024x1024.jpg?v=1656527797",
+      "nome": "Itachi Uchiha",
+      "preco": 95.00,
+      "parcela": 9.50
+    },
+    {
+      "id": 6,
+      "imagem": "https://bdi.dlpdomain.com/ecommerce/principal/4535123831614/1/M400x500/figurine-naruto-look-up-hinata-h.jpg",
+      "nome": "Hinata Hyuga",
+      "preco": 45.00,
+      "parcela": 4.50
+    },
+    {
+      "id": 7,
+      "imagem": "https://www.lojatoyscollections.com.br/cdn/shop/products/8186663224-gaara01-acfa02d2cab3668c7815897344817576-640-0_1024x1024.jpg?v=1675284040",
+      "nome": "Gaara do Deserto",
+      "preco": 70.00,
+      "parcela": 7.00
+    },
+    {
+      "id": 8,
+      "imagem": "https://funko.com/dw/image/v2/BGTS_PRD/on/demandware.static/-/Sites-funko-master-catalog/default/dwa4a3d7b2/images/funko/upload/66477_Naruto_SageModeJiraiya_POP_GLAM-WEB.png?sw=800&sh=800",
+      "nome": "Jiraiya",
+      "preco": 55.00,
+      "parcela": 5.50
+    },
+    {
+      "id": 9,
+      "imagem": "https://funko.com/dw/image/v2/BGTS_PRD/on/demandware.static/-/Sites-funko-master-catalog/default/dw3957b732/images/funko/46628-1.png?sw=800&sh=800",
+      "nome": "Orochimaru",
+      "preco": 65.00,
+      "parcela": 6.50
+    },
+    {
+      "id": 10,
+      "imagem": "https://funko.com/dw/image/v2/BGTS_PRD/on/demandware.static/-/Sites-funko-master-catalog/default/dw0cd5e202/images/funko/68854-2_C.png?sw=800&sh=800",
+      "nome": "Tsunade Senju",
+      "preco": 80.00,
+      "parcela": 8.00
+    }
+  ]
+}
