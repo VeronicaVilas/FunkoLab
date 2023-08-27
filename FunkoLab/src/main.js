@@ -6,6 +6,9 @@ import App from './App.vue'
 // Configurações do Router
 import {routes} from './router/routes.js'
 
+// Configurações Vuex
+import store from './store/index'
+
 // Configurações do Vuetify
 import 'vuetify/styles'
 import '@mdi/font/css/materialdesignicons.css'
@@ -22,4 +25,4 @@ const vuetify = createVuetify({
   },
 })
 
-createApp(App).use(routes).use(vuetify).mount('#app')
+createApp(App).use(routes).use(store).use(vuetify).mount('#app')
