@@ -1,5 +1,5 @@
 <template>
-  <v-table>
+  <v-table class="d-flex justify-center">
     <thead fixed-header height="60px">
       <tr>
         <th class="font-weight-bold">PRODUTO</th>
@@ -14,7 +14,7 @@
         <td><img :src="item.imagem" width="50" /></td>
         <td>{{ item.nome }}</td>
         <td>{{ item.quantidade }}</td>
-        <td>{{ item.preco }}</td>
+        <td>{{ new Intl.NumberFormat('pt-BR', { style: 'currency', currency: 'BRL' }).format(item.preco)}}</td>
         <td>
           {{
             new Intl.NumberFormat('pt-BR', { style: 'currency', currency: 'BRL' }).format(

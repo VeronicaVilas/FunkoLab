@@ -2,7 +2,7 @@
   <div class="d-flex flex-wrap mx-2">
   
     <v-card width="250" variant="outlined" class="ma-2 pa-1" 
-      v-for="product in produtosRestantes" 
+      v-for="product in products" 
       :key="product.id">
 
       <v-card-text  class="d-flex align-center flex-column">
@@ -29,16 +29,6 @@ export default {
   data() {
     return {
       products: []
-    }
-  },
-  computed: {
-    produtosRestantes() {
-     
-      return this.products.filter((product) => {
-        const itemExiste = this.$store.state.produtosCarrinho.find((item) => item.id === product.id)
-        if (itemExiste) return false
-        return true
-      })
     }
   },
   mounted() {

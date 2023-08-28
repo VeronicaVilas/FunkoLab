@@ -12,14 +12,12 @@ const store = createStore({
             const produtoNoCarrinho = state.produtosCarrinho.find(produto => produto.id === produtoRecebido.id)
 
             if (produtoNoCarrinho) {
-
-                state.produtosCarrinho = state.produtosCarrinho.map(item => {
+               state.produtosCarrinho = state.produtosCarrinho.map(item => {
                     if (item.id === produtoRecebido.id) {
                         item.quantidade = item.quantidade + 1
                     }
-                    return item
-                })
-
+                    return item 
+                }) 
             } else {
                 state.produtosCarrinho = [
                     ...state.produtosCarrinho,
